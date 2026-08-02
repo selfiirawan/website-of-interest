@@ -1,0 +1,26 @@
+/* nav {
+    border: 1px solid black;
+} */
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.mobile-nav {
+    color: gray;
+}
+
+.mobile-nav > .nav-item:hover {
+    color: black;
+}
