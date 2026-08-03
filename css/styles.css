@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 h5 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -100,11 +104,66 @@ h5 {
     cursor: pointer;
 }
 
+/* small info */
+.extra {
+    background-color: #f0f0f0;
+}
+
+.content-extra {
+    text-align: center;
+}
+
+.extra-title {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.extra-caption {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* newsletter */
+.newsletter {
+    height: 400px;
+    background-color: black;
+}
+
+h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+}
+
+.newsletter-input::placeholder {
+    color: gray;
+}
+
+.newsletter-input {
+    width: 300px;
+}
+
+.content-2 p {
+    font-size: 12px;
+}
+
+.content-2 button {
+    font-family: "Montserrat", sans-serif;
+    width: 150px;
+}
+
+.newsletter-input:focus {
+    color: white;
+}
+
 /* Desktop view */
 @media (min-width:991px) {
     h5 {
         font-size: 28px;
         margin-top: 20px;
+    }
+
+    h4 {
+        font-size: 55px !important;
     }
 
     .category {
@@ -127,6 +186,18 @@ h5 {
     
     .new-arrival {
         margin: 0 auto;
+    }
+
+    .newsletter-form {
+        width: 450px;
+    }
+
+    .content-2 {
+        padding-left: 130px !important;
+    }
+
+    .content-1 {
+        padding-left: 130px !important;
     }
 }
 
@@ -176,5 +247,17 @@ h5 {
 
     .new-arrival {
         margin: 15px;
+    }
+
+    .content-extra img {
+        width: 25px;
+    }
+
+    .extra-title {
+        font-size: 14px;
+    }
+
+    .content-1, .content-2 {
+        width: 100% !important;
     }
 }
