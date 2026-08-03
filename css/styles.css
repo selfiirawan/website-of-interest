@@ -1,6 +1,7 @@
 h5 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 /* navbar */
@@ -62,6 +63,44 @@ h5 {
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
 }
 
+/* new arrival */
+.new-arrival {
+    max-width: 990px;
+}
+
+/* new arrival card */
+.card {
+    width: 250px;
+    cursor: pointer;
+}
+
+.heart-icon {
+    bottom: 105px;
+    right: 10px;
+}
+
+.card-body .heart-icon img {
+    min-width: 20px !important;
+    min-height: 20px !important;
+}
+
+.card-description {
+    font-size: 14px;
+}
+
+.category-card {
+    font-size: 12px;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.heart-btn {
+    cursor: pointer;
+}
+
+/* Desktop view */
 @media (min-width:991px) {
     h5 {
         font-size: 28px;
@@ -81,10 +120,61 @@ h5 {
         width: 100%;
         height: 250px;
     }
+
+    .card-gap {
+        gap: 30px !important;
+    }
+    
+    .new-arrival {
+        margin: 0 auto;
+    }
 }
 
-@media (max-width:768px) {
+/* mobile view */
+@media (max-width:767px) {
     .navbar {
         padding: 0;
+    }
+
+    .heart-icon {
+        bottom: 32%;
+        right: 12px;
+    }
+
+    .card-img {
+        height: 250px;
+    }
+
+    .card-body .heart-icon img {
+        min-width: 15px !important;
+        min-height: 15px !important;
+    }
+
+    .new-arrival {
+        margin: 15px;
+    }
+}
+
+/* smaller mobile view / ip14pm */
+@media (max-width: 480px) {
+    .heart-icon {
+        bottom: 35%;
+        right: 15px;
+    }
+
+    .card-img {
+        height: 100px;
+    }
+
+    .category-card {
+        font-size: 10px;
+    }
+
+    .card-description {
+        font-size: 12px;
+    }
+
+    .new-arrival {
+        margin: 15px;
     }
 }
