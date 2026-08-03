@@ -8,6 +8,10 @@ h5 {
     text-align: center;
 }
 
+hr {
+    width: 100%;
+}
+
 /* navbar */
 .form-control:focus {
     box-shadow: none;
@@ -125,8 +129,9 @@ h5 {
 
 /* newsletter */
 .newsletter {
-    height: 400px;
+    max-height: 450px;
     background-color: black;
+    overflow: hidden;
 }
 
 h4 {
@@ -162,10 +167,6 @@ h4 {
         margin-top: 20px;
     }
 
-    h4 {
-        font-size: 55px !important;
-    }
-
     .category {
         width: 1000px;
     }
@@ -198,6 +199,20 @@ h4 {
 
     .content-1 {
         padding-left: 130px !important;
+    }
+
+    .big-footer {
+        height: 250px;
+        align-content: center;
+        margin-top: 0 !important;
+    }
+
+    .brand-col {
+        padding-right: 20px;
+    }
+
+    .category-col {
+        padding-left: 35px;
     }
 }
 
@@ -258,6 +273,30 @@ h4 {
     }
 
     .content-1, .content-2 {
-        width: 100% !important;
+        width:
+         100% !important;
     }
+
+    .brand-col {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .connect-col {
+        margin-top: 20px;
+    }
+}
+
+.footer-title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.list-group-item {
+    border: none !important;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.list-group-item:hover {
+    background-color: transparent !important;
 }
