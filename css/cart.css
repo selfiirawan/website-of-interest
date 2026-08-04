@@ -118,6 +118,6 @@ h5 {
     font-size: 18px;
 }
 
-.card, .price-quantity, .card-content, .main-content, .item-box {
+.card, .main-content, .item-box {
     border: 1px solid black !important;
 }
