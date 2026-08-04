@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* navbar */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.mobile-nav {
+    color: gray;
+}
+
+.mobile-nav > .nav-item:hover {
+    color: black;
+}
+
+.offcanvas-start {
+    width: 250px !important;
+}
+
+/* footer */
+.footer-title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.list-group-item {
+    border: none !important;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.list-group-item:hover {
+    background-color: transparent !important;
+}
+
+/* Desktop view */
+@media (min-width:991px) {
+     /* footer */
+    .big-footer {
+        height: 250px;
+        align-content: center;
+        margin-top: 0 !important;
+    }
+
+    .brand-col {
+        padding-right: 20px;
+    }
+
+    .category-col {
+        padding-left: 35px;
+    }
+}
+
+/* mobile view */
+@media (max-width:767px) {
+    /* navbar */
+    .navbar {
+        padding: 0;
+    }
+
+    .price-quantity {
+        gap: 20px;
+    }
+}
+
+/* smaller mobile view / ip14pm */
+@media (max-width: 480px) {
+    /* footer */
+    .brand-col {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .connect-col {
+        margin-top: 20px;
+    }
+
+    .price-quantity {
+        gap: 20px;
+    }
+}
+
+.dropdown-item {
+    font-size: 13px;
+}
+
+.quantity-btn {
+    border: 1px solid black;
+}
+
+.product-name {
+    font-size: 20px;
+}
+
+.product-category {
+    font-size: 15px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.card, .price-quantity, .card-content, .main-content, .item-box {
+    border: 1px solid black !important;
+}

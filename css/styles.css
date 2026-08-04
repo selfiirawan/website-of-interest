@@ -160,6 +160,21 @@ h4 {
     color: white;
 }
 
+/* footer */
+.footer-title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.list-group-item {
+    border: none !important;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.list-group-item:hover {
+    background-color: transparent !important;
+}
+
 /* Desktop view */
 @media (min-width:991px) {
     h5 {
@@ -201,6 +216,7 @@ h4 {
         padding-left: 130px !important;
     }
 
+    /* footer */
     .big-footer {
         height: 250px;
         align-content: center;
@@ -277,6 +293,7 @@ h4 {
          100% !important;
     }
 
+    /* footer */
     .brand-col {
         padding-left: 25px;
         padding-right: 25px;
@@ -285,18 +302,4 @@ h4 {
     .connect-col {
         margin-top: 20px;
     }
-}
-
-.footer-title {
-    font-family: "Montserrat", sans-serif;
-}
-
-.list-group-item {
-    border: none !important;
-    padding-top: 5px;
-    padding-bottom: 0;
-}
-
-.list-group-item:hover {
-    background-color: transparent !important;
 }
