@@ -36,6 +36,31 @@ h5 {
     width: 250px !important;
 }
 
+/* main content - items */
+.dropdown-item {
+    font-size: 13px;
+}
+
+.quantity-btn {
+    border: 1px solid black;
+}
+
+.product-name {
+    font-size: 20px;
+}
+
+.product-category {
+    font-size: 15px;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.main-content {
+    border: 1px solid black !important;
+}
+
 /* footer */
 .footer-title {
     font-family: "Montserrat", sans-serif;
@@ -76,6 +101,30 @@ h5 {
         padding: 0;
     }
 
+    /* main content: item */
+    .card {
+        height: 185px;
+    }
+
+    .product-name {
+        font-size: 16px;
+    }
+
+    .product-category {
+        margin-bottom: 10px !important;
+    }
+
+    .card-content {
+        padding-top: 0 !important;
+    }
+
+    .price {
+        font-size: 17px;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 5px;
+    }
+
     .price-quantity {
         gap: 20px;
     }
@@ -83,6 +132,38 @@ h5 {
 
 /* smaller mobile view / ip14pm */
 @media (max-width: 480px) {
+    h5 {
+        font-size: 25px;
+    }
+
+    /* main content: item */
+    .card {
+        height: 185px;
+    }
+
+    .product-name {
+        font-size: 16px;
+    }
+
+    .product-category {
+        margin-bottom: 10px !important;
+    }
+
+    .card-content {
+        padding-top: 0 !important;
+    }
+
+    .price {
+        font-size: 17px;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-bottom: 5px;
+    }
+
+    .price-quantity {
+        gap: 20px;
+    }
+
     /* footer */
     .brand-col {
         padding-left: 25px;
@@ -92,32 +173,8 @@ h5 {
     .connect-col {
         margin-top: 20px;
     }
-
-    .price-quantity {
-        gap: 20px;
-    }
 }
 
-.dropdown-item {
-    font-size: 13px;
-}
-
-.quantity-btn {
+.total-box {
     border: 1px solid black;
-}
-
-.product-name {
-    font-size: 20px;
-}
-
-.product-category {
-    font-size: 15px;
-}
-
-.price {
-    font-size: 18px;
-}
-
-.card, .main-content, .item-box {
-    border: 1px solid black !important;
 }
