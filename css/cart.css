@@ -58,6 +58,31 @@ h5 {
     font-size: 18px;
 }
 
+/* main-content - order summary */
+.summary-box {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.summary-title {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.total-price {
+    font-size: 17px;
+}
+
+.promo-code {
+    font-size: 18px;
+}
+
+.final-total {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+}
+
 /* footer */
 .footer-title {
     font-family: "Montserrat", sans-serif;
@@ -75,6 +100,16 @@ h5 {
 
 /* Desktop view */
 @media (min-width:991px) {
+    /* main-content */
+    .item-box {
+        max-width: 700px;
+        margin-right: 30px;
+    }
+
+    .checkout-btn {
+        margin-top: 50px;
+    }
+
      /* footer */
     .big-footer {
         height: 250px;
@@ -90,13 +125,8 @@ h5 {
         padding-left: 35px;
     }
 
-    .item-box {
-        max-width: 700px;
-        margin-right: 30px;
-    }
-
-    .checkout-btn {
-        margin-top: 50px;
+    .item-img {
+        height: 350px;
     }
 }
 
@@ -181,26 +211,14 @@ h5 {
     }
 }
 
-.summary-box {
-    background-color: #f0f0f0;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+.title-btn {
+   height: 30px;
 }
 
-.summary-title {
-    font-family: "Inter", sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
+.category {
+    font-size: 12px;
 }
 
-.total-price {
-    font-size: 17px;
-}
-
-.promo-code {
-    font-size: 18px;
-}
-
-.final-total {
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: 1px;
+.more-btn {
+    padding: 13px;
 }
