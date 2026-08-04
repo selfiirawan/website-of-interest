@@ -83,6 +83,19 @@ h5 {
     letter-spacing: 1px;
 }
 
+/* recommended items */
+.title-btn {
+   height: 30px;
+}
+
+.category {
+    font-size: 12px;
+}
+
+.more-btn {
+    padding: 13px;
+}
+
 /* footer */
 .footer-title {
     font-family: "Montserrat", sans-serif;
@@ -110,6 +123,11 @@ h5 {
         margin-top: 50px;
     }
 
+    /* recommended item */
+    .item-img {
+        height: 350px;
+    }
+
      /* footer */
     .big-footer {
         height: 250px;
@@ -123,10 +141,6 @@ h5 {
 
     .category-col {
         padding-left: 35px;
-    }
-
-    .item-img {
-        height: 350px;
     }
 }
 
@@ -209,16 +223,4 @@ h5 {
     .connect-col {
         margin-top: 20px;
     }
-}
-
-.title-btn {
-   height: 30px;
-}
-
-.category {
-    font-size: 12px;
-}
-
-.more-btn {
-    padding: 13px;
 }
