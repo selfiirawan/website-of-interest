@@ -43,6 +43,7 @@ h5 {
 
 .quantity-btn {
     border: 1px solid black;
+    border-radius: 3px;
 }
 
 .product-name {
@@ -55,10 +56,6 @@ h5 {
 
 .price {
     font-size: 18px;
-}
-
-.main-content {
-    border: 1px solid black !important;
 }
 
 /* footer */
@@ -91,6 +88,15 @@ h5 {
 
     .category-col {
         padding-left: 35px;
+    }
+
+    .item-box {
+        max-width: 700px;
+        margin-right: 30px;
+    }
+
+    .checkout-btn {
+        margin-top: 50px;
     }
 }
 
@@ -175,6 +181,26 @@ h5 {
     }
 }
 
-.total-box {
-    border: 1px solid black;
+.summary-box {
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.summary-title {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.total-price {
+    font-size: 17px;
+}
+
+.promo-code {
+    font-size: 18px;
+}
+
+.final-total {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
 }

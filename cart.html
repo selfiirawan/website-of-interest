@@ -97,11 +97,11 @@
     <!-- MAIN CONTENT -->
     <div class="container main-content my-4 p-3">
         <h5 class="pb-2 mb-">Shopping Bag (2)</h5>
-        <div class="row px-2">
+        <div class="row px-2 g-3">
             <!-- items -->
             <div class="col-12 col-md-7 item-box p-2">
                 <!-- item 1 -->
-                <div class="card rounded-0 d-flex flex-row item-1 mb-3 p-2">
+                <div class="card -flex flex-row item-1 mb-3 p-2">
                     <img src="./img/blouse.jpg" alt="blouse" width="180px">
 
                     <div class="card-content w-100 p-3 ms-2 pb-0 px-1 px-md-4 position-relative">
@@ -150,7 +150,7 @@
                 </div>
 
                 <!-- item 2 -->
-                <div class="card rounded-0 d-flex flex-row item-2 p-2">
+                <div class="card d-flex flex-row item-2 p-2">
                     <img src="./img/blouse.jpg" alt="blouse" width="180px">
 
                     <div class="card-content w-100 p-3 ms-2 pb-0 px-1 px-md-4 position-relative">
@@ -200,11 +200,36 @@
             </div>
 
             <!-- total -->
-            <div class="col-12 col-md-5 total-box">
+            <div class="col-12 col-md-5 summary-box p-4 rounded-1">
+                <p class="summary-title fw-bold pt-2">ORDER SUMMARY</p><hr>
 
+                <div class="d-flex justify-content-between total-price mt-4">
+                    <p class="m-0">Subtotal</p>
+                    <p class="m-0">RM 129.00</p>
+                </div>
+                <div class="d-flex justify-content-between total-price mt-3 mb-5">
+                    <p class="m-0">Shipping</p>
+                    <p class="m-0">RM 0.00</p>
+                </div>
+
+                <p class="promo-code mb-2">PROMO CODE</p>
+                <div class="input-group mb-4">
+                    <input type="text" class="form-control" placeholder="ENTER CODE" aria-label="Recipient’s username" aria-describedby="button-addon2">
+                    <button class="btn btn-dark" type="button">APPLY</button>
+                </div><hr>
+
+                <div class="d-flex justify-content-between mt-4 fw-bold">
+                    <p class="total m-0 fs-4">TOTAL</p>
+                    <p class="final-total m-0 fs-2">RM 129.00</p>
+                </div>
+
+                <div class="checkout-btn">
+                    <a class="btn btn-dark w-100 mt-3 p-3" href="#" role="button">PROCEED TO CHECKOUT</a>
+                </div>
             </div>
         </div>
     </div>
+    <!-- END OF MAIN CONTENT -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
