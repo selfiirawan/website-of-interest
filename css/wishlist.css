@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+}
+
+h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+hr {
+    width: 100%;
+}
+
+/* navbar */
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.mobile-nav {
+    color: gray;
+}
+
+.mobile-nav > .nav-item:hover {
+    color: black;
+}
+
+.offcanvas-start {
+    width: 250px !important;
+}
+
+/* title */
+.wishlist-qty {
+    font-size: 22px;
+}
+
+/* wishlist items */
+.title-btn {
+   height: 30px;
+}
+
+.category {
+    font-size: 12px;
+}
+
+.more-btn {
+    padding: 13px;
+}
+
+/* footer */
+.footer-title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.list-group-item {
+    border: none !important;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.list-group-item:hover {
+    background-color: transparent !important;
+}
+
+/* Desktop view */
+@media (min-width:991px) {
+    h5 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    /* wishlist item */
+    .item-img {
+        height: 350px;
+    }
+
+    /* footer */
+    .big-footer {
+        height: 250px;
+        align-content: center;
+        margin-top: 0 !important;
+    }
+
+    .brand-col {
+        padding-right: 20px;
+    }
+
+    .category-col {
+        padding-left: 35px;
+    }
+}
+
+/* mobile view */
+@media (max-width:767px) {
+    .navbar {
+        padding: 0;
+    }
+
+    /* title */
+    .title {
+        font-size: 26px;
+    }
+
+    .wishlist-qty {
+        font-size: 21px;
+    }
+}
+
+/* smaller mobile view (ip 14pm) */
+@media (max-width: 480px) {
+    /* footer */
+    .brand-col {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .connect-col {
+        margin-top: 20px;
+    }
+}
+
+.wishlist-box, .title {
+    border: 1px solid black;
+}
+
+/* medium size screen */
+@media (min-width:768px) {
+    .item-img {
+        height: 200px;
+    }
+}

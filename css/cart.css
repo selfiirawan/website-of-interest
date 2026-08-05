@@ -188,7 +188,7 @@ hr {
     }
 }
 
-/* smaller mobile view / ip14pm */
+/* smaller mobile view (ip 14pm) */
 @media (max-width: 480px) {
     h5 {
         font-size: 25px;

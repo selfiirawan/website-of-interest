@@ -257,7 +257,7 @@ h4 {
     }
 }
 
-/* smaller mobile view / ip14pm */
+/* smaller mobile view (ip 14pm) */
 @media (max-width: 480px) {
     .heart-icon {
         bottom: 35%;

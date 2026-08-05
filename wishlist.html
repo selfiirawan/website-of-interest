@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/icon.png">
+    <title>Luwi Fashion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/wishlist.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top border-bottom">
+        <div class="container-fluid mx-lg-4 d-flex justify-content-between align-items-center">
+            
+            <!-- navbar btn for mobile view -->
+            <button class="navbar-toggler order-1 order-lg-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- logo -->
+            <a class="navbar-brand mx-auto mx-lg-0 order-2 order-lg-1 logo" href="index.html">LUWI</a>
+
+            <!-- Center Desktop Navbar -->
+            <div class="d-none d-lg-flex order-lg-2">
+                <ul class="navbar-nav mx-auto gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="clothings.html">Clothings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accessories</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right Desktop Navbar -->
+            <div class="d-flex d-lg-flex order-3 order-lg-3 gap-3">
+                <form class="d-none d-lg-flex">
+                    <img src="./img/search.svg" alt="search" width="18px">
+                    <input type="search" class="form-control border-0 border-bottom rounded-0" placeholder="Search...">
+                </form>
+
+                <a href="wishlist.html" class="my-auto"><img src="./img/heart.svg" alt="heart-icon" width="18px"></a>
+                
+                <a href="cart.html" class="my-auto position-relative">
+                    <img src="./img/bag.svg" alt="bag-icon" height="19px">
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">2</span>
+                </a>
+                
+                <div class="dropdown my-auto">
+                    <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./img/person.svg" alt="profile-icon" width="23px">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a href="#" class="dropdown-item">Login</a></li>
+                        <li><a href="#" class="dropdown-item">Sign Up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End of Desktop Navbar -->
+        </div>
+    </nav>
+
+    <!-- responsive nav -->
+    <div class="container">
+        <div class="offcanvas offcanvas-start" id="mobileNav" aria-labelledby="mobileNavLabel">
+            <div class="offcanvas-header">
+                <a href="index.html" class="navbar-brand logo">LUWI</a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form>
+                    <input type="search" class="form-control mb-3 border-0 border-bottom rounded-0" placeholder="Search...">
+                </form>
+                <ul class="mobile-nav navbar-nav ms-2">
+                    <li class="nav-item">
+                        <a href="clothings.html" class="nav-link active">Clothings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Bags</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END OF NAVBAR -->
+
+    <div class="container wishlist-box p-0 mt-md-3 mb-4">
+        <h5 class="title m-0 p-3">My Wishlist <span class="text-secondary wishlist-qty">(7)</span></h5>
+
+        <div class="row row-cols-2 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <img src="./img/blouse.jpg" alt="" class="item-img" height="250px" width="100%">
+                            <p class="card-text m-0 mt-2 category text-secondary">CLOTHINGS</p>
+                            <p class="card-title">Blouse</p>
+                            <p class="card-text fw-bold mb-3">RM 39.00</p>
+                        </a>
+
+                        <div class="btn-group mb-2 w-100">
+                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select a Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">S</button></li>
+                                <li><button class="dropdown-item" type="button">M</button></li>
+                                <li><button class="dropdown-item" type="button">L</button></li>
+                                <li><button class="dropdown-item" type="button">XL</button></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn btn-dark w-100">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <img src="./img/blouse.jpg" alt="" class="item-img" height="250px" width="100%">
+                            <p class="card-text m-0 mt-2 category text-secondary">CLOTHINGS</p>
+                            <p class="card-title">Blouse</p>
+                            <p class="card-text fw-bold mb-3">RM 39.00</p>
+                        </a>
+
+                        <div class="btn-group mb-2 w-100">
+                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select a Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">S</button></li>
+                                <li><button class="dropdown-item" type="button">M</button></li>
+                                <li><button class="dropdown-item" type="button">L</button></li>
+                                <li><button class="dropdown-item" type="button">XL</button></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn btn-dark w-100">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <img src="./img/blouse.jpg" alt="" class="item-img" height="250px" width="100%">
+                            <p class="card-text m-0 mt-2 category text-secondary">CLOTHINGS</p>
+                            <p class="card-title">Blouse</p>
+                            <p class="card-text fw-bold mb-3">RM 39.00</p>
+                        </a>
+
+                        <div class="btn-group mb-2 w-100">
+                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select a Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">S</button></li>
+                                <li><button class="dropdown-item" type="button">M</button></li>
+                                <li><button class="dropdown-item" type="button">L</button></li>
+                                <li><button class="dropdown-item" type="button">XL</button></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn btn-dark w-100">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <img src="./img/blouse.jpg" alt="" class="item-img" height="250px" width="100%">
+                            <p class="card-text m-0 mt-2 category text-secondary">CLOTHINGS</p>
+                            <p class="card-title">Blouse</p>
+                            <p class="card-text fw-bold mb-3">RM 39.00</p>
+                        </a>
+
+                        <div class="btn-group mb-2 w-100">
+                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select a Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">S</button></li>
+                                <li><button class="dropdown-item" type="button">M</button></li>
+                                <li><button class="dropdown-item" type="button">L</button></li>
+                                <li><button class="dropdown-item" type="button">XL</button></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn btn-dark w-100">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <img src="./img/blouse.jpg" alt="" class="item-img" height="250px" width="100%">
+                            <p class="card-text m-0 mt-2 category text-secondary">CLOTHINGS</p>
+                            <p class="card-title">Blouse</p>
+                            <p class="card-text fw-bold mb-3">RM 39.00</p>
+                        </a>
+
+                        <div class="btn-group mb-2 w-100">
+                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select a Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">S</button></li>
+                                <li><button class="dropdown-item" type="button">M</button></li>
+                                <li><button class="dropdown-item" type="button">L</button></li>
+                                <li><button class="dropdown-item" type="button">XL</button></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn btn-dark w-100">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <img src="./img/blouse.jpg" alt="" class="item-img" height="250px" width="100%">
+                            <p class="card-text m-0 mt-2 category text-secondary">CLOTHINGS</p>
+                            <p class="card-title">Blouse</p>
+                            <p class="card-text fw-bold mb-3">RM 39.00</p>
+                        </a>
+
+                        <div class="btn-group mb-2 w-100">
+                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select a Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">S</button></li>
+                                <li><button class="dropdown-item" type="button">M</button></li>
+                                <li><button class="dropdown-item" type="button">L</button></li>
+                                <li><button class="dropdown-item" type="button">XL</button></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn btn-dark w-100">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 border-0">
+                    <div class="card-body">
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            <img src="./img/blouse.jpg" alt="" class="item-img" height="250px" width="100%">
+                            <p class="card-text m-0 mt-2 category text-secondary">CLOTHINGS</p>
+                            <p class="card-title">Blouse</p>
+                            <p class="card-text fw-bold mb-3">RM 39.00</p>
+                        </a>
+
+                        <div class="btn-group mb-2 w-100">
+                            <button class="btn btn-outline-dark btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Select a Size
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">S</button></li>
+                                <li><button class="dropdown-item" type="button">M</button></li>
+                                <li><button class="dropdown-item" type="button">L</button></li>
+                                <li><button class="dropdown-item" type="button">XL</button></li>
+                            </ul>
+                        </div>
+
+                        <button type="button" class="btn btn-dark w-100">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+        </div><hr>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
