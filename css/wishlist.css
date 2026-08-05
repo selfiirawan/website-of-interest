@@ -131,13 +131,10 @@ hr {
     }
 }
 
-.wishlist-box, .title {
-    border: 1px solid black;
+.remove-btn {
+    right: 15px;
 }
 
-/* medium size screen */
-@media (min-width:768px) {
-    .item-img {
-        height: 200px;
-    }
+.remove-btn:hover {
+    background-color: white;
 }
