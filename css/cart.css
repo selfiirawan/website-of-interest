@@ -8,6 +8,11 @@ h5 {
     font-size: 30px;
 }
 
+hr {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
 /* navbar */
 .form-control:focus {
     box-shadow: none;
@@ -37,6 +42,9 @@ h5 {
 }
 
 /* main content - items */
+.item-box {
+    border: 2px solid #f0f0f0;
+}
 .dropdown-item {
     font-size: 13px;
 }
