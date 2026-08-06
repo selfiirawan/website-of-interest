@@ -108,6 +108,23 @@ hr {
     cursor: pointer;
 }
 
+/* trending now */
+.title-n-btn {
+    height: 30px;
+}
+
+.trending-name {
+    font-size: 18px;
+}
+
+.trending-category {
+    font-size: 13px;
+}
+
+.trending-price {
+    font-size: 20px;
+}
+
 /* small info */
 .extra {
     background-color: #f0f0f0;
@@ -129,7 +146,6 @@ hr {
 
 /* newsletter */
 .newsletter {
-    max-height: 450px;
     background-color: black;
     overflow: hidden;
 }
@@ -201,6 +217,10 @@ hr {
 
     .newsletter-form {
         width: 450px;
+    }
+
+    .newsletter {
+        height: 400px !important;
     }
 
     .content-2 {
@@ -289,8 +309,7 @@ hr {
     }
 
     .content-1, .content-2 {
-        width:
-         100% !important;
+        width: 100% !important;
     }
 
     /* footer */
@@ -304,3 +323,10 @@ hr {
     }
 }
 
+.trending-card:hover {
+    background-color: #f0f0f0;
+}
+
+.trending-caption {
+    font-size: 15px;
+}
