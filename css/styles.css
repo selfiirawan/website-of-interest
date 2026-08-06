@@ -8,6 +8,11 @@ h5 {
     text-align: center;
 }
 
+h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 45px;
+}
+
 hr {
     width: 100%;
 }
@@ -77,11 +82,6 @@ hr {
 }
 
 /* new arrival card */
-.card {
-    width: 250px;
-    cursor: pointer;
-}
-
 .heart-icon {
     bottom: 105px;
     right: 10px;
@@ -100,7 +100,7 @@ hr {
     font-size: 12px;
 }
 
-.price {
+.price-carousel {
     font-size: 16px;
 }
 
@@ -132,11 +132,6 @@ hr {
     max-height: 450px;
     background-color: black;
     overflow: hidden;
-}
-
-h4 {
-    font-family: "Playfair Display", serif;
-    font-size: 45px;
 }
 
 .newsletter-input::placeholder {
@@ -214,6 +209,11 @@ h4 {
 
     .content-1 {
         padding-left: 130px !important;
+    }
+
+     /* trending now */
+    .trending-img {
+        height: 350px;
     }
 
     /* footer */
@@ -303,3 +303,4 @@ h4 {
         margin-top: 20px;
     }
 }
+
