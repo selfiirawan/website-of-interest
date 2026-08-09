@@ -71,6 +71,19 @@ hr {
     font-size: 15px;
 }
 
+.dropdown-menu .active {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.ori-price {
+    font-size: 12px;
+}
+
+.discount-price {
+    font-size: 9px;
+}
+
 /* main-content - order summary */
 .summary-box {
     background-color: #f0f0f0;
@@ -107,6 +120,11 @@ hr {
 
 .more-btn {
     padding: 13px;
+}
+
+.recommendation .card {
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);;
+    
 }
 
 /* footer */
@@ -238,19 +256,3 @@ hr {
     }
 }
 
-.dropdown-menu .active {
-    background-color: #f0f0f0;
-    color: black;
-}
-
-.ori-price {
-    font-size: 12px;
-}
-
-.discount-price {
-    font-size: 9px;
-}
-
-.discount-box, .discount-box p {
-    /* border: 1px solid black; */
-}
