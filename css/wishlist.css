@@ -60,8 +60,30 @@ hr {
     font-size: 12px;
 }
 
-.more-btn {
-    padding: 13px;
+.remove-btn {
+    right: 15px;
+}
+
+.remove-btn:hover {
+    background-color: white;
+}
+
+.dropdown-menu .active {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+/* discount */
+.ori-price {
+    font-size: 12px;
+}
+
+.discount-price {
+    font-size: 10px;
 }
 
 /* footer */
@@ -135,12 +157,4 @@ hr {
     .connect-col {
         margin-top: 20px;
     }
-}
-
-.remove-btn {
-    right: 15px;
-}
-
-.remove-btn:hover {
-    background-color: white;
 }
