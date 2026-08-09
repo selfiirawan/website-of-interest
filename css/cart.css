@@ -68,7 +68,7 @@ hr {
 }
 
 .price {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* main-content - order summary */
@@ -236,4 +236,21 @@ hr {
     .connect-col {
         margin-top: 20px;
     }
+}
+
+.dropdown-menu .active {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.ori-price {
+    font-size: 12px;
+}
+
+.discount-price {
+    font-size: 9px;
+}
+
+.discount-box, .discount-box p {
+    /* border: 1px solid black; */
 }
