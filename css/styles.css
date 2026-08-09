@@ -81,6 +81,19 @@ hr {
     max-width: 990px;
 }
 
+.carousel .card {
+    width: 200px;
+}
+
+/* new arrival - discount */
+.ori-price {
+    font-size: 12px;
+}
+
+.discount-price {
+    font-size: 10px;
+}
+
 /* new arrival card */
 .heart-icon {
     bottom: 105px;
@@ -123,6 +136,14 @@ hr {
 
 .trending-price {
     font-size: 20px;
+}
+
+.trending-card:hover {
+    background-color: #f0f0f0;
+}
+
+.trending-caption {
+    font-size: 15px;
 }
 
 /* small info */
@@ -265,7 +286,7 @@ hr {
     }
 
     .heart-icon {
-        bottom: 32%;
+        bottom: 33%;
         right: 12px;
     }
 
@@ -287,7 +308,7 @@ hr {
 @media (max-width: 480px) {
     /* new arrival */
     .heart-icon {
-        bottom: 35%;
+        bottom: 38%;
         right: 15px;
     }
 
@@ -332,24 +353,10 @@ hr {
     }
 }
 
-.trending-card:hover {
-    background-color: #f0f0f0;
-}
-
-.trending-caption {
-    font-size: 15px;
-}
-
-/* new arrival */
-.carousel .card {
-    width: 200px;
-}
-
-/* new arrival - discount */
-.ori-price {
-    font-size: 12px;
-}
-
-.discount-price {
-    font-size: 10px;
+/* medium size */
+@media (min-width: 768px) and (max-width: 991px) {
+    .heart-icon {
+        bottom: 28%;
+        right: 10px;
+    }
 }
