@@ -211,10 +211,16 @@ hr {
         gap: 30px !important;
     }
     
+    /* new arrival */
     .new-arrival {
         margin: 0 auto;
     }
 
+    .carousel .card {
+        width: 300px !important;
+    }
+
+    /* newsletter */
     .newsletter-form {
         width: 450px;
     }
@@ -279,6 +285,7 @@ hr {
 
 /* smaller mobile view (ip 14pm) */
 @media (max-width: 480px) {
+    /* new arrival */
     .heart-icon {
         bottom: 35%;
         right: 15px;
@@ -299,6 +306,8 @@ hr {
     .new-arrival {
         margin: 15px;
     }
+
+    
 
     .content-extra img {
         width: 25px;
@@ -329,4 +338,18 @@ hr {
 
 .trending-caption {
     font-size: 15px;
+}
+
+/* new arrival */
+.carousel .card {
+    width: 200px;
+}
+
+/* new arrival - discount */
+.ori-price {
+    font-size: 12px;
+}
+
+.discount-price {
+    font-size: 10px;
 }
