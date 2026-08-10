@@ -200,7 +200,7 @@ hr {
     }
 
     .price {
-        font-size: 17px;
+        font-size: 15px;
         padding-top: 0 !important;
         padding-bottom: 0 !important;
         margin-bottom: 5px;
@@ -254,5 +254,28 @@ hr {
     .connect-col {
         margin-top: 20px;
     }
+
+    /* cart */
+    .price {
+        font-size: 12px;
+    }
+
+    .ori-price {
+        font-size: 10px;
+    }
+
+    .discount-price {
+        font-size: 9px;
+    }
+
+    .product-name {
+        font-size: 14px;
+    }
+
+    .product-category {
+        font-size: 13px;
+    }
 }
+
+
 
