@@ -5,6 +5,9 @@ A static, front-end-only shopping website built for my own fashion brand concept
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)
+
+🔗 **[Live Demo](https://selfiirawan.github.io/luwi/)**
 
 ## 🧵 About
 
@@ -30,7 +33,7 @@ LUWI is a fashion brand I created for this project — a clean, minimal clothing
 
 | Page | File | Description |
 |---|---|---|
-| Home | `index.html` | Hero banner, category showcase, new arrivals |
+| Home | `index.html` | Hero banner, category showcase, new arrivals, contact, etc. |
 | Cart | `cart.html` | Shopping cart UI |
 | Wishlist | `wishlist.html` | Saved items UI |
 
@@ -48,14 +51,9 @@ Since this project uses HTML/CSS/Bootstrap only:
 <!-- Add screenshots here, e.g.: -->
 <!-- ![Homepage](./screenshots/home.png) -->
 
-## 🚀 Getting Started
-
-```bash
-git clone https://github.com/selfiirawan/luwi.git
-cd luwi
-```
-
-Then just open `index.html` in your browser — no build step or dependencies needed.
+## 📜 License
+ 
+This project is shared publicly for portfolio purposes only. All rights reserved — see [LICENSE](./LICENSE) for details. No part of this code may be copied, modified, or reused without permission.
 
 ## 👩‍💻 Author
 
