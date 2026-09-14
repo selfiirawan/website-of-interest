@@ -50,6 +50,14 @@ Since this project uses HTML/CSS/Bootstrap only:
 
 <!-- Add screenshots here, e.g.: -->
 <!-- ![Homepage](./screenshots/home.png) -->
+**Homepage**
+![Homepage](./screenshots/home.png)
+ 
+**Wishlist**
+![Wishlist](./screenshots/wishlist.png)
+ 
+**Cart**
+![Cart](./screenshots/cart.png)
 
 ## 📜 License
  
