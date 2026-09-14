@@ -7,7 +7,7 @@ A static, front-end-only shopping website built for my own fashion brand concept
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)
 
-🔗 **[Live Demo](https://selfiirawan.github.io/luwi/)**
+🔗 **[Live Demo](https://selfiirawan.github.io/website-of-interest/)**
 
 ## 🧵 About
 
